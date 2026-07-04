@@ -1,0 +1,335 @@
+{
+  "metrics": {
+    "n": 36,
+    "faithfulness": 0.9444,
+    "answer_relevance": 0.9444,
+    "context_relevance": 0.35,
+    "self_check_retry_rate": 0.0
+  },
+  "rows": [
+    {
+      "id": "lv-01",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.7,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "Full-time employees at Acme Corp accrue 22 days of paid annual leave per calendar year [1]. At EvalCorp, full-time employees accrue 24 days per year [2]."
+    },
+    {
+      "id": "lv-02",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "At EvalCorp, full-time employees may carry over up to 6 unused annual leave days into the next year, and those carried days expire on April 30 [1]. At Acme Corp, the carry-over limit is 5 days, and any excess is forfeited on March 31 [2]."
+    },
+    {
+      "id": "lv-03",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.2,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "For EvalCorp, leave requests longer than 4 consecutive days require 15 business days of advance notice through the HR portal [1]. For Acme Corp, leave requests longer than 3 consecutive days require 10 business days of advance notice through the HR portal [4]."
+    },
+    {
+      "id": "lv-04",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.6,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "You need a doctor's note for sick leave if your absence is 3 or more consecutive days, and the note must be submitted within 48 hours of returning to work [1][4]."
+    },
+    {
+      "id": "lv-05",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "Primary caregivers receive 16 weeks of fully paid parental leave [1]."
+    },
+    {
+      "id": "lv-06",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "Yes, parental leave may be split into at most 2 blocks within the first 12 months after birth or adoption [1]."
+    },
+    {
+      "id": "lv-07",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "You receive 3 days of paid marriage leave [1][3]."
+    },
+    {
+      "id": "lv-08",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The conditions for requesting unpaid leave depend on the policy in effect. Under the current leave policy, after 2 years of tenure, employees may request up to 3 months of unpaid leave once every 5 years, subject to VP approval and a 60-day notice period [1]. Under the 2023 rules, unpaid leave was capped at 1 month after 3 years of tenure [2]."
+    },
+    {
+      "id": "rw-01",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "At EvalCorp, you may work remotely up to 2 days per week, with Tuesdays and Thursdays being mandatory office days for all teams [1]. Fully remote arrangements require director approval and are re-evaluated every quarter [1]."
+    },
+    {
+      "id": "rw-02",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.2,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "Everyone must be in the office on Tuesdays and Thursdays [1]."
+    },
+    {
+      "id": "rw-03",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The core hours for remote employees depend on which company's policy applies.\n\nAt EvalCorp, remote employees must be online and reachable during core hours of 09:30–15:30 Istanbul time (UTC+3) [1].\n\nAt Acme Corp, remote employees must be reachable during core hours of 10:00–16:00 in the Istanbul (UTC+3) time zone [2]."
+    },
+    {
+      "id": "rw-04",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.8,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The one-time home office stipend is 9000 TRY, and the monthly internet allowance is 400 TRY [2][3]."
+    },
+    {
+      "id": "rw-05",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.2,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "You are allowed to work from outside Turkey for at most 30 calendar days per year [1]."
+    },
+    {
+      "id": "rw-06",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.0,
+      "grounded": null,
+      "self_check_iterations": 0,
+      "answer": "It depends on the coffee shop's policy and your employer's rules. Most coffee shops allow customers to use their Wi-Fi, but they may have time limits or require a purchase. Check with your employer first — some companies prohibit using public Wi-Fi for security reasons, or require a VPN."
+    },
+    {
+      "id": "rw-07",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "At Acme Corp, fully remote arrangements require VP-level approval and are reviewed every 6 months [1]. At EvalCorp, fully remote arrangements require director approval and are re-evaluated every quarter [2]."
+    },
+    {
+      "id": "tx-01",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.2,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "International business trips must be booked at least 14 days in advance [1]."
+    },
+    {
+      "id": "tx-02",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.6,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The domestic per-diem rate depends on which company's policy applies.\n\nFor EvalCorp, the current domestic per-diem is 1800 TRY per day [1]. The archived 2023 policy had a rate of 950 TRY per day, but that version is superseded [2].\n\nFor Acme Corp, the domestic per-diem is $60 per day [3]."
+    },
+    {
+      "id": "tx-03",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The per-diem for business travel in Europe is 90 EUR per day [1]. This rate applies to international travel in Europe and covers meals and incidentals, with no receipts required for per-diem claims [1]."
+    },
+    {
+      "id": "tx-04",
+      "faithfulness": 0.0,
+      "answer_relevance": 0.9,
+      "context_relevance": 0.0,
+      "grounded": null,
+      "self_check_iterations": 0,
+      "answer": "You can fly premium economy when the airline offers it on your route and it's available for purchase. It's typically available on long-haul international flights, and you can book it directly or request an upgrade at check-in or the gate, depending on availability."
+    },
+    {
+      "id": "tx-05",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.6,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The mileage reimbursement rate for using your own car depends on which policy applies.\n\nUnder the current company policy, mileage is reimbursed at $0.45 per kilometer for personal vehicle use on approved business trips [1][4].\n\nHowever, if you are traveling in Turkey, the travel expenses policy states mileage is reimbursed at 14 TRY per kilometer [2].\n\nThe 2023 archived policy, which is superseded, had a rate of 8 TRY per kilometer [3]."
+    },
+    {
+      "id": "tx-06",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The nightly hotel cap for domestic travel is 7500 TRY per night [1]."
+    },
+    {
+      "id": "tx-07",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.0,
+      "context_relevance": 0.2,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "If you lose a receipt for an expense above 3000 TRY, the item will not be reimbursed [1]. For expenses below that threshold, the policy does not specify a consequence for missing receipts, but all expense reports require itemized receipts attached [1]."
+    },
+    {
+      "id": "tx-08",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9,
+      "context_relevance": 0.6,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The deadline depends on which company's policy applies.\n\nFor EvalCorp, expense reports are due within 21 days of trip completion [1].\n\nFor Acme Corp, business expenses must be submitted within 30 days of being incurred [3].\n\nUnder the 2023 travel policy (which may no longer be current), reports were due within 45 days of trip completion [2]."
+    },
+    {
+      "id": "sec-01",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "EvalCorp requires passwords to be at least 16 characters long, with rotation every 12 months [1]. Globex Corp requires passwords to be at least 14 characters long, with rotation every 180 days [2]."
+    },
+    {
+      "id": "sec-02",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "Suspected security incidents must be reported to the SOC within 30 minutes of discovery via the #sec-incident channel or the 24/7 hotline [1]. Employees must not attempt to investigate or remediate incidents themselves [1]."
+    },
+    {
+      "id": "sec-03",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The deadline for reporting a lost laptop depends on which policy applies:\n\n- Under the security policy, lost or stolen devices must be reported within 4 hours [1].\n- Under the HR policy, lost or stolen devices must be reported within 24 hours [2].\n\nIf you are unsure which policy governs your situation, please check with your manager or the SOC."
+    },
+    {
+      "id": "sec-04",
+      "faithfulness": 0.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.0,
+      "grounded": null,
+      "self_check_iterations": 0,
+      "answer": "Yes, you can usually check work email on your personal phone, but it depends on your employer's policy. Many companies allow it using a secure email app or by adding the account to your phone's mail app. However, you may need to agree to security rules, like setting a passcode or allowing remote wipe of company data. Check with your IT department first to ensure you follow their guidelines."
+    },
+    {
+      "id": "sec-05",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "No, production data may never be copied to development environments; only approved anonymized datasets may be used instead [1][2]."
+    },
+    {
+      "id": "sec-06",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.2,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "Privileged admin access expires after 12 hours [1]."
+    },
+    {
+      "id": "sec-07",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.2,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "Access that has not been used for 90 days is revoked automatically [1]."
+    },
+    {
+      "id": "ob-01",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The probation period for new hires depends on the company. At EvalCorp, new hires complete a 4-month probation period with a mid-point check-in at week 8, and it may be extended once by at most 2 months [1]. At ACME, new hires complete a 3-month probation period, extendable once by 3 months [2]."
+    },
+    {
+      "id": "ob-02",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "Performance reviews happen twice a year, in May and November [1]. Promotion decisions are made only in the November cycle [1]."
+    },
+    {
+      "id": "ob-03",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.6,
+      "context_relevance": 0.2,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "Yes, private health insurance covers spouses and children at no extra cost [1]."
+    },
+    {
+      "id": "ob-04",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.2,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The meal card is loaded with 350 TRY per working day [1]."
+    },
+    {
+      "id": "ob-05",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The annual learning budget is 30,000 TRY per employee [1]. It does not roll over; any unused budget is forfeited [1]."
+    },
+    {
+      "id": "ob-06",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 0.4,
+      "grounded": true,
+      "self_check_iterations": 1,
+      "answer": "The referral bonus is 40,000 TRY gross, paid after the referred employee completes probation [1]. For hard-to-fill roles listed by Talent Acquisition, the bonus is double that amount [1]."
+    }
+  ]
+}

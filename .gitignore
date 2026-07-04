@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets / env — never commit real keys
+.env
+.env.*
+!.env.example
+
+# Local data / models / caches
+qdrant_storage/
+n8n_data/
+volumes/
+models/
+.cache/
+*.db
+
+# Internal planning / build docs — keep out of the public portfolio repo
+# (README.md and docs/eval_report.md ARE the deliverable and stay tracked;
+#  docs/architecture.md is my private decision log — local only, not on GitHub)
+*.docx
+/RaaS_BUILD_PROMPT_v2.md
+docs/architecture.md
+
+# Scratch / temp
+scratch*
+
+# Frontend (ui/)
+node_modules/
+ui/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

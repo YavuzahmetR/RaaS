@@ -1,0 +1,68 @@
+{
+  "id": "RaaSIngestWf01",
+  "name": "RaaS Document Ingestion",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "raas-ingest",
+        "responseMode": "responseNode",
+        "options": {
+          "binaryPropertyName": "file"
+        }
+      },
+      "id": "b1f8c9a0-0001-4000-8000-000000000001",
+      "name": "Upload Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [-200, 0],
+      "webhookId": "raas-ingest"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=http://api:8000/ingest?tenant={{ $json.query.tenant || 'acme' }}",
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "parameterType": "formBinaryData",
+              "name": "file",
+              "inputDataFieldName": "file0"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "id": "b1f8c9a0-0002-4000-8000-000000000002",
+      "name": "Call RaaS /ingest",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [80, 0]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}"
+      },
+      "id": "b1f8c9a0-0003-4000-8000-000000000003",
+      "name": "Respond",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [360, 0]
+    }
+  ],
+  "connections": {
+    "Upload Webhook": {
+      "main": [[{ "node": "Call RaaS /ingest", "type": "main", "index": 0 }]]
+    },
+    "Call RaaS /ingest": {
+      "main": [[{ "node": "Respond", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": { "templateCredsSetupCompleted": true }
+}

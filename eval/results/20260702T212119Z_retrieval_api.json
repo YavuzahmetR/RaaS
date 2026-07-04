@@ -1,0 +1,445 @@
+{
+  "metrics": {
+    "n": 36,
+    "rerank": false,
+    "recall@1": 0.6944,
+    "recall@3": 0.9722,
+    "recall@5": 1.0,
+    "mrr": 0.8356
+  },
+  "misses": [],
+  "rows": [
+    {
+      "id": "lv-01",
+      "expected": "leave_policy.md",
+      "got": [
+        "hr_policy_acme.md",
+        "leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "leave_policy.md",
+        "onboarding_benefits.md"
+      ],
+      "first_rank": 2
+    },
+    {
+      "id": "lv-02",
+      "expected": "leave_policy.md",
+      "got": [
+        "leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "hr_policy_acme.md",
+        "security_policy.md",
+        "archive_2023_travel_policy.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "lv-03",
+      "expected": "leave_policy.md",
+      "got": [
+        "leave_policy.md",
+        "hr_policy_acme.md",
+        "archive_2023_leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "leave_policy.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "lv-04",
+      "expected": "leave_policy.md",
+      "got": [
+        "archive_2023_leave_policy.md",
+        "leave_policy.md",
+        "leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "leave_policy.md"
+      ],
+      "first_rank": 2
+    },
+    {
+      "id": "lv-05",
+      "expected": "leave_policy.md",
+      "got": [
+        "leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "leave_policy.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "lv-06",
+      "expected": "leave_policy.md",
+      "got": [
+        "leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "leave_policy.md",
+        "leave_policy.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "lv-07",
+      "expected": "leave_policy.md",
+      "got": [
+        "leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "hr_policy_acme.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "lv-08",
+      "expected": "leave_policy.md",
+      "got": [
+        "leave_policy.md",
+        "leave_policy.md",
+        "archive_2023_leave_policy.md",
+        "leave_policy.md",
+        "archive_2023_leave_policy.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "rw-01",
+      "expected": "remote_work.md",
+      "got": [
+        "hr_policy_acme.md",
+        "remote_work.md",
+        "hr_policy_acme.md",
+        "remote_work.md",
+        "onboarding_benefits.md"
+      ],
+      "first_rank": 2
+    },
+    {
+      "id": "rw-02",
+      "expected": "remote_work.md",
+      "got": [
+        "hr_policy_acme.md",
+        "remote_work.md",
+        "onboarding_benefits.md",
+        "hr_policy_acme.md",
+        "remote_work.md"
+      ],
+      "first_rank": 2
+    },
+    {
+      "id": "rw-03",
+      "expected": "remote_work.md",
+      "got": [
+        "hr_policy_acme.md",
+        "remote_work.md",
+        "hr_policy_acme.md",
+        "remote_work.md",
+        "hr_policy_acme.md"
+      ],
+      "first_rank": 2
+    },
+    {
+      "id": "rw-04",
+      "expected": "remote_work.md",
+      "got": [
+        "remote_work.md",
+        "hr_policy_acme.md",
+        "hr_policy_acme.md",
+        "onboarding_benefits.md",
+        "remote_work.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "rw-05",
+      "expected": "remote_work.md",
+      "got": [
+        "remote_work.md",
+        "hr_policy_acme.md",
+        "hr_policy_acme.md",
+        "archive_2023_travel_policy.md",
+        "travel_expenses.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "rw-06",
+      "expected": "remote_work.md",
+      "got": [
+        "remote_work.md",
+        "hr_policy_acme.md",
+        "remote_work.md",
+        "hr_policy_acme.md",
+        "it_policy_globex.pdf"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "rw-07",
+      "expected": "remote_work.md",
+      "got": [
+        "hr_policy_acme.md",
+        "security_policy.md",
+        "hr_policy_acme.md",
+        "remote_work.md",
+        "remote_work.md"
+      ],
+      "first_rank": 4
+    },
+    {
+      "id": "tx-01",
+      "expected": "travel_expenses.md",
+      "got": [
+        "travel_expenses.md",
+        "archive_2023_travel_policy.md",
+        "hr_policy_acme.md",
+        "hr_policy_acme.md",
+        "hr_policy_acme.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "tx-02",
+      "expected": "travel_expenses.md",
+      "got": [
+        "travel_expenses.md",
+        "archive_2023_travel_policy.md",
+        "travel_expenses.md",
+        "hr_policy_acme.md",
+        "travel_expenses.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "tx-03",
+      "expected": "travel_expenses.md",
+      "got": [
+        "travel_expenses.md",
+        "archive_2023_travel_policy.md",
+        "travel_expenses.md",
+        "hr_policy_acme.md",
+        "archive_2023_travel_policy.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "tx-04",
+      "expected": "travel_expenses.md",
+      "got": [
+        "travel_expenses.md",
+        "archive_2023_travel_policy.md",
+        "travel_expenses.md",
+        "hr_policy_acme.md",
+        "archive_2023_travel_policy.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "tx-05",
+      "expected": "travel_expenses.md",
+      "got": [
+        "hr_policy_acme.md",
+        "hr_policy_acme.md",
+        "travel_expenses.md",
+        "archive_2023_travel_policy.md",
+        "travel_expenses.md"
+      ],
+      "first_rank": 3
+    },
+    {
+      "id": "tx-06",
+      "expected": "travel_expenses.md",
+      "got": [
+        "travel_expenses.md",
+        "travel_expenses.md",
+        "archive_2023_travel_policy.md",
+        "archive_2023_travel_policy.md",
+        "travel_expenses.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "tx-07",
+      "expected": "travel_expenses.md",
+      "got": [
+        "travel_expenses.md",
+        "archive_2023_travel_policy.md",
+        "hr_policy_acme.md",
+        "archive_2023_travel_policy.md",
+        "hr_policy_acme.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "tx-08",
+      "expected": "travel_expenses.md",
+      "got": [
+        "travel_expenses.md",
+        "archive_2023_travel_policy.md",
+        "hr_policy_acme.md",
+        "travel_expenses.md",
+        "hr_policy_acme.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "sec-01",
+      "expected": "security_policy.md",
+      "got": [
+        "it_policy_globex.pdf",
+        "security_policy.md",
+        "security_policy.md",
+        "hr_policy_acme.md",
+        "remote_work.md"
+      ],
+      "first_rank": 2
+    },
+    {
+      "id": "sec-02",
+      "expected": "security_policy.md",
+      "got": [
+        "security_policy.md",
+        "it_policy_globex.pdf",
+        "hr_policy_acme.md",
+        "security_policy.md",
+        "security_policy.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "sec-03",
+      "expected": "security_policy.md",
+      "got": [
+        "security_policy.md",
+        "security_policy.md",
+        "hr_policy_acme.md",
+        "archive_2023_travel_policy.md",
+        "it_policy_globex.pdf"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "sec-04",
+      "expected": "security_policy.md",
+      "got": [
+        "hr_policy_acme.md",
+        "security_policy.md",
+        "hr_policy_acme.md",
+        "hr_policy_acme.md",
+        "remote_work.md"
+      ],
+      "first_rank": 2
+    },
+    {
+      "id": "sec-05",
+      "expected": "security_policy.md",
+      "got": [
+        "security_policy.md",
+        "security_policy.md",
+        "hr_policy_acme.md",
+        "security_policy.md",
+        "onboarding_benefits.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "sec-06",
+      "expected": "security_policy.md",
+      "got": [
+        "security_policy.md",
+        "it_policy_globex.pdf",
+        "hr_policy_acme.md",
+        "security_policy.md",
+        "hr_policy_acme.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "sec-07",
+      "expected": "security_policy.md",
+      "got": [
+        "security_policy.md",
+        "it_policy_globex.pdf",
+        "hr_policy_acme.md",
+        "security_policy.md",
+        "security_policy.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "ob-01",
+      "expected": "onboarding_benefits.md",
+      "got": [
+        "hr_policy_acme.md",
+        "onboarding_benefits.md",
+        "onboarding_benefits.md",
+        "leave_policy.md",
+        "onboarding_benefits.md"
+      ],
+      "first_rank": 2
+    },
+    {
+      "id": "ob-02",
+      "expected": "onboarding_benefits.md",
+      "got": [
+        "hr_policy_acme.md",
+        "onboarding_benefits.md",
+        "security_policy.md",
+        "onboarding_benefits.md",
+        "onboarding_benefits.md"
+      ],
+      "first_rank": 2
+    },
+    {
+      "id": "ob-03",
+      "expected": "onboarding_benefits.md",
+      "got": [
+        "onboarding_benefits.md",
+        "leave_policy.md",
+        "archive_2023_travel_policy.md",
+        "travel_expenses.md",
+        "travel_expenses.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "ob-04",
+      "expected": "onboarding_benefits.md",
+      "got": [
+        "onboarding_benefits.md",
+        "travel_expenses.md",
+        "archive_2023_travel_policy.md",
+        "travel_expenses.md",
+        "archive_2023_travel_policy.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "ob-05",
+      "expected": "onboarding_benefits.md",
+      "got": [
+        "onboarding_benefits.md",
+        "onboarding_benefits.md",
+        "archive_2023_travel_policy.md",
+        "travel_expenses.md",
+        "hr_policy_acme.md"
+      ],
+      "first_rank": 1
+    },
+    {
+      "id": "ob-06",
+      "expected": "onboarding_benefits.md",
+      "got": [
+        "onboarding_benefits.md",
+        "onboarding_benefits.md",
+        "hr_policy_acme.md",
+        "hr_policy_acme.md",
+        "onboarding_benefits.md"
+      ],
+      "first_rank": 1
+    }
+  ]
+}
